@@ -92,7 +92,7 @@ const Navbar = () => {
 
         {/* Mobile Menu Button */}
         <button
-          className="md:hidden text-gray-700 focus:outline-none"
+          className="md:hidden text-sky-600 focus:outline-none"
           onClick={toggleMenu}
           aria-label="Toggle menu"
         >
