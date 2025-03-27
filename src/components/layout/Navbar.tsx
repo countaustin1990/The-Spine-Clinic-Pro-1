@@ -49,7 +49,7 @@ const Navbar = () => {
       <div className="container-custom mx-auto flex justify-between items-center">
         <Link to="/" className="flex items-center space-x-2">
           <Activity size={28} className="text-sky-600" />
-          <span className="text-xl font-bold text-sky-800">The Spine Clinic</span>
+          <span className="text-xl font-bold text-sky-600">The Spine Clinic</span>
         </Link>
 
         {/* Desktop Navigation */}
