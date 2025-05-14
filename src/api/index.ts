@@ -1,4 +1,4 @@
-const  API_BASE_URL = import.meta.env.VITE_APP_BASE_URL;
+const API_BASE_URL = import.meta.env.VITE_APP_BASE_URL;
 
 export async function fetchData(endpoint: string, options = {}) {
   try {
@@ -54,4 +54,3 @@ export const api = {
     body: JSON.stringify(data),
   }),
 };
- 
